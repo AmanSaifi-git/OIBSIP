@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4AED2F"
+
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of Questions"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/idTVQuestionsAttempted"/>
+
+    />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTVQuestions"
+        android:layout_below="@+id/idTVQuestionsAttempted"
+        android:layout_margin="30dp"
+        android:text="Questions"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/idTVQuestions">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="12dp"
+
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="4dp"
+                android:text="Option 1"
+                android:textAllCaps="false"
+                android:id="@+id/idBtnOption1"
+                android:background="#A0FC86"
+                android:backgroundTint="#A0FC86"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="4dp"
+                android:text="Option 1"
+                android:textAllCaps="false"
+                android:id="@+id/idBtnOption2"
+                android:background="#A0FC86"
+                android:backgroundTint="#A0FC86"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="4dp"
+                android:text="Option 1"
+                android:textAllCaps="false"
+                android:id="@+id/idBtnOption3"
+                android:background="#A0FC86"
+                android:backgroundTint="#A0FC86"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="4dp"
+                android:text="Option 1"
+                android:textAllCaps="false"
+                android:id="@+id/idBtnOption4"
+                android:background="#A0FC86"
+                android:backgroundTint="#A0FC86"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>
